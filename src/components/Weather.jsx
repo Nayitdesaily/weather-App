@@ -1,7 +1,7 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import './weather.css'
-import weatherVideo from  '../assets/weather.mp4'
+
 
 const Weather = () => {
 
@@ -48,7 +48,7 @@ const Weather = () => {
                 </div>
             </div>
             <button onClick={changeTemperature}>°C / °F</button>
-            <video src={weatherVideo} autoPlay loop muted />
+            
         </div>
     );
 };

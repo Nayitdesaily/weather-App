@@ -23,13 +23,7 @@
     align-items: center;
     gap: 2rem;
 }
-.container > video {
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    left: 0;
-    opacity: 0.9;
-}
+
 
 .container > button {
     border: none;
